@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace NePodCatcher
 {
-    enum Codec
+    public enum Codec
     {
         AAC,
-        MP3
+        MP3,
+        NoCodec
     }
 
     public static class Extension
